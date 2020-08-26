@@ -1,2 +1,16 @@
 plugins:
   - jekyll-redirect-from
+
+exclude: [
+    LICENSE,
+    README.md,
+    SEO.md,
+    package*.json,
+    node_modules,
+    dev-deploy.sh,
+    .gitignore,
+    .idea,
+    src,
+    Gemfile*,
+    webpack*
+]
